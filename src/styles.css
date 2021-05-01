@@ -1,31 +1,33 @@
+@import "./components/toggle.css";
+@import "./components/button.css";
+@import "./components/snackbar.css";
+@import "./components/modal.css";
+@import "./components/typography.css";
+@import "./components/table.css";
+@import "./components/form.css";
+@import "./components/expand.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
 	::-moz-selection {
-		@apply bg-indigo-100;
+		@apply bg-gray-100;
 	}
 	::selection {
-		@apply bg-indigo-100;
+		@apply bg-gray-100;
 	}
 	*:focus, button:focus {
-		@apply outline-none ring-2 ring-indigo-300;
+		@apply outline-none ring-2 ring-gray-300;
 	}
 
-	h1 {
-		@apply text-2xl font-light;
-	}
-	h2 {
-		@apply text-xl font-medium;
-	}
-	p {
-		@apply leading-relaxed;
+	body {
+		@apply m-4 text-gray-900;
 	}
 }
 
 @layer components {
-
 }
 
 @media (min-width: 640px) { /* sm */

@@ -1,0 +1,16 @@
+ideas:
+reference for color palette: tailwind colors greys, icons: hero icons
+include js and css that include or don't include tailwind/umbrella
+modified umbrella with css, val, and others
+split into parts (can only get toggle css and js if needed)
+maybe no umbrella (also no alpine), vanilla js : ) (remember to update subheading in index.html)
+
+can provide tailwind code to be used with your tailwind, or raw css output to use without tailwind
+
+maybe: autocomplete, dropdown
+
+common js utils for copy text, download text, local storage, random numbers, input validation, etc
+
+could use animate.css
+
+maybe: files for use with umbrella, alpine, tailwind, utils for hero icons and animate.css

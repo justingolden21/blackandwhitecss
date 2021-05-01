@@ -1,0 +1,90 @@
+@layer components {
+	h1, h2, h3, h4, h5, h6 {
+		@apply tracking-wider font-semibold my-4;
+	}
+	h1.light, h2.light, h3.light, h4.light, h5.light, h6.light {
+		@apply font-light;
+	}
+	h1 {
+		@apply text-3xl;
+	}
+	h2 {
+		@apply text-2xl;
+	}
+	h3 {
+		@apply text-xl;
+	}
+	h4 {
+		@apply text-lg;
+	}
+	h5 {
+		@apply text-base;
+	}
+	h6 {
+		@apply text-base;
+	}
+	p {
+		@apply leading-relaxed;
+	}
+	a {
+		@apply text-gray-500 font-bold hover:underline;
+	}
+	code {
+		@apply p-1 bg-gray-200;
+	}
+	kbd {
+		@apply p-1 text-white bg-gray-800 rounded;
+	}
+	hr {
+		@apply border-t-2 border-gray-300 m-4;
+	}
+	mark {
+		@apply bg-yellow-300 p-1;
+	}
+	pre code {
+		@apply block max-w-full overflow-scroll;
+	}
+	ul li, ol li {
+		@apply ml-4;
+	}
+	ul li {
+		@apply list-disc;
+	}
+	ol li {
+		@apply list-decimal;
+	}
+	blockquote {
+		@apply border-l-4 border-gray-300 pl-2 italic text-lg;
+	}
+	blockquote cite {
+		@apply text-gray-500 not-italic text-sm;
+	}
+
+	@media (min-width: 640px) { /* sm */
+
+		h1 {
+			@apply text-4xl;
+		}
+		h2 {
+			@apply text-3xl;
+		}
+		h3 {
+			@apply text-2xl;
+		}
+		h4 {
+			@apply text-xl;
+		}
+		h5 {
+			@apply text-lg;
+		}
+	}
+
+	@media (min-width: 768px) { /* md */
+	}
+
+	@media (min-width: 1024px) { /* lg */
+	}
+
+	@media (min-width: 1280px) { /* xl */
+	}
+}

@@ -1,21 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>blackandwhitecss</title>
+	<title>Black & White CSS</title>
 	<meta charset="utf-8">
-	<meta name="title=" content="blackandwhitecss">
+	<meta name="title=" content="Black & White CSS">
 	<meta name="robots" content="index, follow">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="a simple and bold css and js framework">
-	<meta name="keywords" content="">
+	<meta name="description" content="A simple and bold css and js framework">
+	<meta name="keywords" content="black and white css, lightweight css frameworks, easy to use css frameworks, easy to learn css frameworks">
 	<!-- <link rel="shortcut icon" href="img/icon.png"> -->
+	<meta name="apple-mobile-web-app-status-bar" content="#FAFAFA">
+	<meta name="theme-color" content="#FAFAFA">
 
 	<link rel="stylesheet" href="css/styles.css">
-	<script src="js/scripts.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/components/toggle.js"></script>
+	<script src="js/components/snackbar.js"></script>
+	<script src="js/components/expand.js"></script>
+	<script src="js/components/modal.js"></script>
 </head>
-<body class="text-center m-2 text-gray-900">
-	<section>
-		<h1>blackandwhitecss</h1>
+<body>
+
+	<h1>Black & White CSS</h1>
+
+	<h2 class="light">A simple and bold css and js framework, by <a href="https://justingolden.me" target="_blank"> Justin Golden</a></h2>
+
+	<h4 class="light italic">Powered by Umbrella JS, Tailwind CSS, and Hero Icons</h5>
+
+	<section class="border-t-2 border-b-2">
+		<h1 id="typography" class="text-center underline">1. Typography</h1>
+		<p>Font sizes adapted from Tailwind CSS.</p>
+		<table>
+			<tr>
+				<th><code>text-base</code></th>
+				<td><code>font-size: 1rem;</code></td>
+				<td><code>line-height: 1.5rem;</code></td>
+			</tr>
+			<tr>
+				<th><code>text-lg</code></th>
+				<td><code>font-size: 1.125rem;</code></td>
+				<td><code>line-height: 1.75rem;</code></td>
+			</tr>
+			<tr>
+				<th><code>text-xl</code></th>
+				<td><code>font-size: 1.25rem;</code></td>
+				<td><code>line-height: 1.75rem;</code></td>
+			</tr>
+			<tr>
+				<th><code>text-2xl</code></th>
+				<td><code>font-size: 1.5rem;</code></td>
+				<td><code>line-height: 2rem;</code></td>
+			</tr>
+			<tr>
+				<th><code>text-3xl</code></th>
+				<td><code>font-size: 1.875rem;</code></td>
+				<td><code>line-height: 2.25rem;</code></td>
+			</tr>
+			<tr>
+				<th><code>text-4xl</code></th>
+				<td><code>font-size: 2.25rem;</code></td>
+				<td><code>line-height: 2.5rem;</code></td>
+			</tr>
+		</table>
+		<p><a href="https://tailwindcss.com/docs/font-size" target="_blank">Tailwind Font Size Docs</a></p>
+
+		<hr>
+
+		<p>Font weights adapted from Tailwind CSS. Headings are <span class="font-light">"light" (300)</span> or <span class="font-semibold">"semibold" (600)</span>. Paragraphs are "normal" (400).
+		<a href="https://tailwindcss.com/docs/font-weight" target="_blank">Tailwind Font Weight Docs</a>
+		</p>
 	</section>
+
+	<h1>Heading 1 &lt;h1&gt;</h1>
+
+	<h1 class="light">Heading 1 &lt;h1&gt;.light</h1>
+
+	<h2>Heading 2 &lt;h2&gt;</h2>
+
+	<h2 class="light">Heading 2 &lt;h2&gt;.light</h2>
+
+	<h3>Heading 3 &lt;h3&gt;</h3>
+
+	<h3 class="light">Heading 3 &lt;h3&gt;.light</h3>
+
+	<h4>Heading 4 &lt;h4&gt;</h4>
+
+	<h4 class="light">Heading 4 &lt;h4&gt;.light</h4>
+
+	<h5>Heading 5 &lt;h5&gt;</h5>
+
+	<h5 class="light">Heading 5 &lt;h5&gt;.light</h5>
+
+	<h6>Heading 6 &lt;h6&gt;</h6>
+
+	<h6 class="light">Heading 6 &lt;h6&gt;.light</h6>
+
+	<hr>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sodales tellus ipsum, malesuada venenatis dui rutrum rutrum. Cras in faucibus neque. Vivamus ultricies ullamcorper nisl, quis vulputate purus feugiat non. Donec sit amet nisi ante. Aenean efficitur eu mi a efficitur. Curabitur quis lorem tempus, fringilla turpis vel, maximus mauris. Phasellus lorem dolor, euismod quis nulla id, vehicula semper lorem.</p>
+
+	<p>Duis at sapien tellus. Fusce at finibus nunc, sed gravida dolor. Nam ac ultrices ligula. Nam blandit sapien enim, quis elementum erat semper sit amet. In tempus arcu eu purus scelerisque, quis scelerisque nisl luctus. Integer tincidunt pretium consequat. Fusce risus orci, pulvinar eget ultricies vitae, pellentesque at neque. Nunc non enim nulla. Duis dapibus, felis ac pharetra feugiat, sem massa auctor tellus, et consequat nulla tellus et metus. Maecenas euismod ultrices mi in ullamcorper. Nullam sagittis quis nisi sed pulvinar. Maecenas posuere imperdiet lorem et vestibulum. Morbi justo odio, lobortis id arcu ac, convallis malesuada massa. Nam venenatis convallis nisi, a ullamcorper leo placerat et. Nulla tristique tellus condimentum, lacinia ex sit amet, faucibus magna. Suspendisse ac lacus consectetur, semper felis vitae, efficitur metus.</p>
+
+	<p>Suspendisse potenti. Duis interdum finibus ullamcorper. Nullam auctor volutpat lacus. Nunc id felis in nisl efficitur faucibus. Mauris et lorem justo. Pellentesque enim metus, imperdiet vitae vestibulum vitae, aliquam ut erat. Vestibulum vel cursus magna. Etiam pharetra eget velit et imperdiet. Quisque ac lacus vel purus facilisis rutrum. Integer vel nulla ac elit tristique ullamcorper.</p>
+
+	<br>
+
+	<p>Example text: <b>bold</b>, <i>italic</i>, <u>underline</u>, <mark>highlight</mark> (using <code>&lt;b&gt;</code>, <code>&lt;i&gt;</code>, <code>&lt;u&gt;</code>, and <code>&lt;mark&gt;</code>)</p>
+
+	<br>
+
+	<p>Example link: <a href="https://google.com">google.com</a></p>
+
+	<br>
+
+	<p>Example code: <code>for (let i = 0; i < 10; i++) {</code></p>
+
+	<br>
+
+	<p>Example keyboard: <kbd>ctrl</kbd> + <kbd>S</kbd></p>
+
+	<br>
+
+	<p>Example code block (<code>&lt;pre&gt;&lt;code&gt;</code>):</p>
+
+	<br>
+
+	<pre><code>public static void main(String args[]) {
+	System.out.println("Hello World!");
+}</code></pre>
+
+	<br>
+
+	<p>Example blockquote (<code>&lt;blockquote&gt;</code>):</p>
+
+	<br>
+
+	<blockquote>
+	<p>All you need is love.</p>
+	<p><cite>- The Beatles</cite></p>
+	</blockquote>
+
+	<br>
+
+	<p>Unordered List (<code>&lt;ul&gt;</code>):</p>
+
+	<ul>
+		<li>Item 1</li>
+		<li>Item 2</li>
+		<li>Item 3</li>
+		<li>Item 4</li>
+	</ul>
+
+	<br>
+
+	<p>Ordered List (<code>&lt;ol&gt;</code>):</p>
+
+	<ol>
+		<li>An item</li>
+		<li>Another item</li>
+		<li>one more item</li>
+	</ol>
+
+
+	<section class="border-t-2 border-b-2">
+		<h1 id="Forms" class="text-center underline">2. Buttons, Inputs, and Forms</h1>
+		<p>Includes basic styling for buttons, inputs, select, checkboxes, and radios</p>
+	</section>
+
+	<p>Text Input With Label:</p>
+	<label for="text-1">Label</label>
+	<input id="text-1" type="text" value="Text Input">
+	<p>Number Input:</p>
+	<input type="number" value="0">
+	<p>Email Input:</p>
+	<input type="email" value="contact@justingolden.me">
+	<p>Textarea:</p>
+	<textarea rows="3" cols="60">hello</textarea>
+	<p>Select:</p>
+	<select>
+		<option>Red</option>
+		<option>Green</option>
+		<option>Blue</option>
+	</select>
+	<p>Checkbox:</p>
+	<input id="check-1" type="checkbox">
+	<label for="check-1">Check me out</label>
+	<p>Vertical Radio:</p>
+
+	<div>
+	<input type="radio" id="huey" name="person" value="huey"
+	checked>
+	<label for="huey">Huey</label>
+	</div>
+	<div>
+	<input type="radio" id="dewey" name="person" value="dewey">
+	<label for="dewey">Dewey</label>
+	</div>
+	<div>
+	<input type="radio" id="louie" name="person" value="louie">
+	<label for="louie">Louie</label>
+	</div>
+
+	<p>Horizontal Radio:</p>
+	<div>
+	<input type="radio" id="huey2" name="person2" value="huey"
+	checked>
+	<label for="huey2">Huey</label>
+	<input type="radio" id="dewey2" name="person2" value="dewey">
+	<label for="dewey2">Dewey</label>
+	<input type="radio" id="louie2" name="person2" value="louie">
+	<label for="louie2">Louie</label>
+	</div>
+
+	<br>
+
+	<p>Circle, Small, Medium, and Large Buttons (<code>&lt;btn&gt;.circle</code>, <code>&lt;btn&gt;.sm</code>, <code>&lt;btn&gt;</code>, <code>&lt;btn&gt;.lg</code>):</p>
+
+	<button class="btn circle">
+		<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M12 6v12"></path><path d="M6 12h12"></path></g></svg>
+	</button>
+	<button class="btn sm">Small</button>
+	<button class="btn">Medium</button>
+	<button class="btn lg">Large</button>
+
+	<br>
+	<br>
+	<p>Toggle:</p>
+	<br>
+	<div class="toggle-container">
+		<input type="checkbox" id="toggle-1" class="toggle-checkbox"/>
+		<label class="toggle-bg"></label>
+	</div>
+	<label for="toggle-1" class="toggle-label">Toggle</label>
+
+<pre><code>&lt;div class="toggle-container">
+	&lt;input type="checkbox" id="toggle-1" class="toggle-checkbox"/>
+	&lt;label class="toggle-bg">&lt;/label>
+&lt;/div>
+&lt;label for="toggle-1" class="toggle-label">Toggle&lt;/label></code></pre>
+
+	<br>
+
+	<p>Expands (<code>&lt;btn&gt;.expand-btn</code>):</p>
+
+	<p class="mb-2 mt-2 font-bold">Expand
+		<button class="expand-btn" href="#example-expand" data-expanded="false"></button>
+	</p>
+	<p>Here is some text.</p>
+	<p id="example-expand" class="expand-text">Here are some more details about the text.</p>
+
+	<p class="mb-2 mt-2 font-bold">Expand
+		<button class="expand-btn" href="#example-expand-2" data-expanded="true"></button>
+	</p>
+	<p>Here is some more text.</p>
+	<p id="example-expand-2" class="expand-text">Here are even more details about the text.</p>
+
+	<p>Snackbar (<code>showSnackbar(time, ms=2000)</code>:</p>
+
+	<button onclick="showSnackbar('Hello there!',3000)" class="btn">Show Snackbar</button>
+
+	<div id="snackbar"></div>
+
+	<p>Modal</p>
+
+	<pre><code>
+	&lt;button class="btn modal-btn" href="#test-modal">
+		Open Modal
+	&lt;/button>
+
+	&lt;div id="test-modal" class="modal">
+		&lt;div class="modal-content">
+			&lt;div class="modal-header">
+				&lt;button class="btn close">
+					&lt;svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">&lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">&lt;/path>&lt;/svg>
+				&lt;/button>
+				&lt;h1>Test Modal&lt;/h1>
+			&lt;/div>
+			&lt;div class="modal-body">
+				Hello there!
+			&lt;/div>
+		&lt;/div>
+	&lt;/div>		
+	</code></pre>
+
+	<button class="btn modal-btn" href="#test-modal">
+		Open Modal
+	</button>
+
+	<div id="test-modal" class="modal">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="btn close">
+					<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+				</button>
+				<h1>Test Modal</h1>
+			</div>
+			<div class="modal-body">
+				Hello there!
+			</div>
+		</div>
+	</div>
+
+	<button class="btn modal-btn" href="#test-modal-2">
+		Open Modal 2
+	</button>
+
+	<div id="test-modal-2" class="modal">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button class="btn close">
+					<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+				</button>
+				<h1>Test Modal 2</h1>
+			</div>
+			<div class="modal-body">
+				Hello there again!
+			</div>
+		</div>
+	</div>
+
+	<p>Coming soon: more components, sources for CSS and JS code, all in one minified file, CDN</p>
+
 </body>
 </html>

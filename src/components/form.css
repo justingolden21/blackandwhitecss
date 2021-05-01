@@ -1,0 +1,35 @@
+@layer components {
+	input[type=text], input[type=number], input[type=email], textarea, select, option {
+		@apply p-2 m-2 text-gray-700 border-2 border-gray-200 !important;
+	}
+	input[type=text], input[type=number], input[type=email], select, option {
+		@apply w-32 !important;
+	}
+	label {
+		@apply text-sm;
+	}
+	input[type=checkbox]:not(.toggle-checkbox), input[type=radio] {
+		@apply w-4 h-4 m-1 !important;
+	}
+}
+
+@media (min-width: 640px) { /* sm */
+	label {
+		@apply text-base;
+	}
+	h1 {
+		@apply text-3xl;
+	}
+	h2 {
+		@apply text-xl;
+	}
+}
+
+@media (min-width: 768px) { /* md */
+}
+
+@media (min-width: 1024px) { /* lg */
+}
+
+@media (min-width: 1280px) { /* xl */
+}

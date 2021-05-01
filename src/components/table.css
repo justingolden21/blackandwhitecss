@@ -1,0 +1,9 @@
+tr {
+	@apply border-2 border-gray-100;
+}
+th {
+	@apply tracking-wider;
+}
+th, td {
+	@apply p-2;
+}

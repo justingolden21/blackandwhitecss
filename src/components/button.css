@@ -1,0 +1,17 @@
+@layer components {
+	.btn {
+		@apply cursor-pointer p-2 mx-1 rounded bg-gray-500 text-white hover:bg-gray-700;
+	}
+	.btn.lg {
+		@apply text-xl p-3;
+	}
+	.btn.sm {
+		@apply p-1;
+	}
+	.btn.circle {
+		@apply p-1 rounded-full;
+	}
+	.btn.active {
+		@apply bg-gray-700;
+	}
+}

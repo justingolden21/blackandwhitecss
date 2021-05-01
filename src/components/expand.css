@@ -1,0 +1,15 @@
+@layer components {
+	.expand-btn {
+		@apply btn circle;
+	}
+	.expand-text {
+		@apply mt-4;
+		transition: opacity 400ms;
+	}
+	.expand-text.show {
+		opacity: 1;
+	}
+	.expand-text.hide {
+		opacity: 0;
+	}
+}
