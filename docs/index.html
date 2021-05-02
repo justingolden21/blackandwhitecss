@@ -12,12 +12,15 @@
 	<meta name="apple-mobile-web-app-status-bar" content="#FAFAFA">
 	<meta name="theme-color" content="#FAFAFA">
 
+	<script src="https://cdn.jsdelivr.net/npm/umbrellajs"></script>
+
 	<link rel="stylesheet" href="css/styles.css">
 	<script src="js/main.js"></script>
 	<script src="js/components/toggle.js"></script>
 	<script src="js/components/snackbar.js"></script>
 	<script src="js/components/expand.js"></script>
 	<script src="js/components/modal.js"></script>
+	<script src="js/components/tab.js"></script>
 </head>
 <body>
 
@@ -261,7 +264,7 @@
 
 	<div id="snackbar"></div>
 
-	<p>Modal</p>
+	<p>Modal:</p>
 
 	<pre><code>
 	&lt;button class="btn modal-btn" href="#test-modal">
@@ -318,6 +321,82 @@
 			</div>
 		</div>
 	</div>
+
+	<p>Tabs:</p>
+
+	<p>Set the grid (<code>grid-cols-1 sm:grid-cols-2 md:grid-cols-6</code>) to whatever responsive values fit best for your use case.</p>
+
+	<p><code>tab.js</code> handles hiding and showing the tabs, clicking on a child of the tab (such as an image), focusable tabs and keyboard events, as well as url parameters to save the current tab on page load.</p>
+
+	<pre>
+		<code>
+&lt;section class="tab-container">
+	&lt;div class="mb-8 mx-auto
+		grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6">
+		&lt;a class="active tab" data-tab="home">Home&lt;/a>
+		&lt;a class="tab" data-tab="menu">Menu&lt;/a>
+		&lt;a class="tab" data-tab="locations">Locations&lt;/a>
+		&lt;a class="tab" data-tab="cart">Cart&lt;/a>
+		&lt;a class="tab" data-tab="about">About&lt;/a>
+		&lt;a class="tab" data-tab="hours">Hours&lt;/a>
+	&lt;/div>
+	&lt;div id="home" class="tab-content">
+		Home...
+	&lt;/div>
+	&lt;div id="menu" class="tab-content">
+		Menu...
+	&lt;/div>
+	&lt;div id="locations" class="tab-content">
+		Locations...
+	&lt;/div>
+	&lt;div id="cart" class="tab-content">
+		Cart...
+	&lt;/div>
+	&lt;div id="about" class="tab-content">
+		About...
+	&lt;/div>
+	&lt;div id="hours" class="tab-content">
+		Hours...			
+	&lt;/div>
+&lt;/section>
+		</code>
+	</pre>
+
+
+	<section class="tab-container">
+		<div class="mb-8 mx-auto
+			grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6">
+			<a class="active tab" data-tab="home">Home</a>
+			<a class="tab" data-tab="menu">Menu</a>
+			<a class="tab" data-tab="locations">Locations</a>
+			<a class="tab" data-tab="cart">Cart</a>
+			<a class="tab" data-tab="about">About</a>
+			<a class="tab" data-tab="hours">Hours</a>
+		</div>
+		<div id="home" class="tab-content">
+			Home...
+		</div>
+		<div id="menu" class="tab-content">
+			Menu...
+		</div>
+		<div id="locations" class="tab-content">
+			Locations...
+		</div>
+		<div id="cart" class="tab-content">
+			Cart...
+		</div>
+		<div id="about" class="tab-content">
+			About...
+		</div>
+		<div id="hours" class="tab-content">
+			Hours...			
+		</div>
+	</section>
+
+
+
+
+
 
 	<p>Coming soon: more components, sources for CSS and JS code, all in one minified file, CDN</p>
 

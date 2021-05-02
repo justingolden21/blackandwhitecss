@@ -14,3 +14,5 @@ common js utils for copy text, download text, local storage, random numbers, inp
 could use animate.css
 
 maybe: files for use with umbrella, alpine, tailwind, utils for hero icons and animate.css
+
+add tabs (!!!)

@@ -1,15 +1,15 @@
 @layer components {
 	input[type=text], input[type=number], input[type=email], textarea, select, option {
-		@apply p-2 m-2 text-gray-700 border-2 border-gray-200 !important;
+		@apply p-2 m-2 text-gray-700 border-2 border-gray-200;
 	}
 	input[type=text], input[type=number], input[type=email], select, option {
-		@apply w-32 !important;
+		@apply w-32;
 	}
 	label {
 		@apply text-sm;
 	}
 	input[type=checkbox]:not(.toggle-checkbox), input[type=radio] {
-		@apply w-4 h-4 m-1 !important;
+		@apply w-4 h-4 m-1;
 	}
 }
 
